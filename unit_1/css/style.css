@@ -8,5 +8,5 @@ color: GoldenRod;
 }
 
 h1{
-	border: dotted;
+	border-style: groove dotted double solid;
 }
