@@ -1,12 +1,27 @@
 body {
-	background-color:#E0FFFF;
+	background-color:#AFDBAD;
 	text-align: center;
 }
 
-h1,h2,p,footer {
-color: GoldenRod;
+h1,footer {
+	color: GoldenRod;
 }
 
 h1{
-	border-style: groove dotted double solid;
+	border-style: dotted double;
+	font-size: 48px;
+	text-decoration: underline;
+}
+
+h2 {
+	font-size:30px;
+	font-weight:normal;
+}
+
+p {
+	font-family: Bookman;
+}
+a {
+	text-decoration: none;
+	font-style: italic;
 }
