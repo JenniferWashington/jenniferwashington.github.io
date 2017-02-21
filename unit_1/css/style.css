@@ -11,6 +11,7 @@ h1{
 	border-style: dotted double;
 	font-size: 48px;
 	text-decoration: underline;
+	text-transform: uppercase;
 }
 
 h2 {

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>nannylink</title>
+		<link rel="stylesheet" type"text.css" href="css/style.css"
+	</head>
+
+		<body>
+
+			<header> 
+				<h1> Logo </h1>
+				<nav>
+				<a href="https://www.facebook.com/jennifer.washington.94?ref=bookmarks</a>
+				<a href="https://www.facebook.com/jennifer.washington.94?ref=bookmarks</a>
+				<a href="https://www.facebook.com/jennifer.washington.94?ref=bookmarks</a>
+				<a href="https://www.facebook.com/jennifer.washington.94?ref=bookmarks</a>
+				</nav>
+			</header>
+
+			<main>
+			<h2>Looking for some fun things to do in with kids in NYC?</h2>
+				<section>
+				<h3> Indoor fun </h3>
+				</section>
+				
+				<section>
+				<h3>Outdoor fun</h3>
+				</section>
+			</main>
+
+
+
+
+
+
+
+
+
+
+
+
+		</body>
+</html>
