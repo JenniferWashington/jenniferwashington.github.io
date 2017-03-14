@@ -9,15 +9,29 @@
 
 
 header {
-	background-color: #FFF3CD;
-	border-style: dotted
+	background-color: #FFED74;
+	border:1px black solid;
+	padding:20px;
 }
+
 
 
 body {
-	background-color: #FFF3CD;
-
+	background-color:#5C0028;
 }
+
+section{
+	background-color: #FFE2B8;
+	border:1px black solid;
+	padding: 20px;
+}
+
+footer{
+	background-color: #FF957E;
+	border:1px black solid;
+	padding:20px;
+}
+
 
 h1{
 	line-height: 1em;
@@ -42,12 +56,15 @@ nav {
 	font-family:'Indie Flower';
 	font-style: underline;
 	text-align: center;
+	background-color: #E8C66A;
+	border:1px black solid;
+	padding: 20px;
 
 }
 
 p{
 	color: white;
-margin: 1em;
+	padding: 1.5em;
 }
 
 a   {
@@ -56,12 +73,6 @@ a   {
 	font-size: 20px
 	font-family:'Griffy';
 }
-
-/*.navigation{ */ why doesn't it put a margin around the a tags in the navigation bar?
-	margin: 2em,4em;
-
-}
-
 
 img{
 	width: 100%;
@@ -83,12 +94,14 @@ img{
 
 .box{
 	width:50%;
-	border: solid 12px silver;
+	border: solid 12px #FFF3CD;
 	border-style: double;
 	box-sizing: border-box;
 	position: relative;
 }
+
 .box a{
+	color:#FFF3CD;
 	display: block;
 	width: 100%;
 	text-align: center;
@@ -96,6 +109,13 @@ img{
 	left: 0%;
 	top: 50%;
 	transform: translateY(-50%);
+	font-size:2em;
+	font-variant: small-caps;
+	font-weight: 900;
+}
+
+a:hover{
+	color:#5C0028;
 }
 
 .left {
@@ -105,9 +125,14 @@ img{
 	float: right;
 }
 
+.outdoorfont a{
+	
+}
+
 #wrapper{
 	background-color: #5C0028;
 }
+
 
 h3{
 	text-align: center;
