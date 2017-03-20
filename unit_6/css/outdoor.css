@@ -54,16 +54,44 @@ body {
 
 
 }
+#left{ 
+	/*box*/
+	background-color: #;
+	border-style: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 62%;
 
-#aside {
-	position: relative;
-	float:right;
-	width: 30%;
-	margin: 1em 0 1em 1;
-	border-style: solid;
-	border-color: #fff;
-	top: 0px;
-	bottom: 0px;
+}
+
+a {
+	color: white;
+
+}
+
+a:hover {
+color:blue;
+}
+
+#right {
+	/*aside*/
+background-color: #D4574A;
+border: 1px black solid;
+padding: 20px;
+margin:0 0 0 4em;
+float: right;
+width: 20%;
+height: 100%;
+display: inline-block;
+
+}
+
+#right ul {
+	padding:30px;
+	text-align: right;
+	font-variant-caps: small-caps;
+	line-height: 2em;
+	list-style-type: circle;
 }
 
 .clearfix:after {
