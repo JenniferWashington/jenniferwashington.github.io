@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Griffy);
+
+
+header {
+	background-color: #FFED74;
+	border:1px black solid;
+	padding:20px;
+}
+
+
+h1{
+	line-height: 1em;
+	margin: 0.3em;
+	font-size: 25px;
+	font-family: 'Griffy';
+	font-style: italic;
+	}
+
+h2, h3 {
+	font-family: 'Indie Flower';
+	color: white;
+}
+
+nav {
+	font-family:'Indie Flower';
+	font-style: underline;
+	text-align: center;
+	background-color: #E8C66A;
+	border:1px black solid;
+	padding: 20px;
+}
+
+body {
+	background-color:#5C0028;
+}
+
+.navbar a{
+	margin-left: 5em;
+	margin-right: 5em;
+
+}
+#wrapper{
+	background-color: #5C0028;
+	padding:30px;
+}
+
+.box {
+	float:left;
+	width:60%;
+	margin: 1em 0 1em 0;
+	padding: 1em;
+	border-style: solid;
+	border-color: #fff;	
+
+
+}
+#left{ 
+	/*box*/
+	background-color: #;
+	border-style: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 62%;
+
+}
+
+a {
+	color: white;
+
+}
+
+a:hover {
+color:blue;
+}
+
+#right {
+	/*aside*/
+background-color: #D4574A;
+border: 1px black solid;
+padding: 20px;
+margin:0 0 0 4em;
+float: right;
+width: 20%;
+height: 100%;
+display: inline-block;
+
+}
+
+#right ul {
+	padding:30px;
+	text-align: right;
+	font-variant-caps: small-caps;
+	line-height: 2em;
+	list-style-type: circle;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	clear: both;
+	content: "";
+	height: 0;
+}
+
+p {
+	text-align: right;
+	color: white;
+}
+
+
+
+img {
+	max-width: 80%
+	float: left;
+	display: block;
+	border-style: solid;
+	border-color: grey;
+
+}
+
+footer {
+	color: white;
+	margin: 12em 0 0 0;
+}
+
+
+
+
+
+
+
