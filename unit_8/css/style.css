@@ -123,7 +123,8 @@ a:hover, a:hover p{
 a:hover img {
 	opacity: 0.3;
 }
-#wrapper{
+
+.wrapper{
 	padding:2em;
 	max-width: 1200px;
 	margin: auto;
@@ -136,11 +137,9 @@ h3{
 }
 
 
-
-
-
 @media only screen and (max-width: 793px) {
 	body {
 		background-color: #208000;
+
 	}
 }
