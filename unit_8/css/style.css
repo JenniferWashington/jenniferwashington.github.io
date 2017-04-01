@@ -7,23 +7,14 @@
 
 }
 
-
 header {
 	background-color: #FFF3CD;
 	border:0.2em black solid;
 	padding:1em;
 }
 
-
-
 body {
-	background-color:#5C0028;
-}
-
-section{
-	background-color: #FFE2B8;
-	border:0.2em black solid;
-	padding: 1em;
+	background-color:##ecf0f1;
 }
 
 footer{
@@ -45,7 +36,7 @@ h1{
 
 
 h2 {
-	color: white;
+	color: #2c3e50;
 	margin: 1em;
 	text-align: center;
 	font-size: 1.8em;
@@ -61,7 +52,6 @@ nav {
 	background-color: #E8C66A;
 	border:0.1em black solid;
 	padding: 1em 0;
-
 }
 
 p{
@@ -81,8 +71,8 @@ img{
 }
 
 nav a{
-	margin: 0 2em;
 	display: inline-block;
+	margin: 0 2em;
 	padding: 1em;
 }
 
@@ -97,8 +87,6 @@ nav a{
 .box{
 	margin: .5%;
 	width: 49%;
-	border: solid 0.7em #FFF3CD;
-	border-style: double;
 	box-sizing: border-box;
 	position: relative;
 	float: left;
@@ -131,15 +119,80 @@ a:hover img {
 }
 
 
+
 h3{
 	text-align: center;
 	text-transform:uppercase;
 }
 
+ul {
+	list-style: none;
+}
+
+.nav-item {
+	display: inline;
+}
+
+.main-content {
+	display: flex;
+}
+
+.main-content-section {
+	background-color: #FFE2B8;
+	border:0.2em black solid;
+}
 
 @media only screen and (max-width: 793px) {
-	body {
-		background-color: #208000;
+	header {
+		display: flex;
+		justify-content: space-around;
+	}
 
+	h2 {
+		font-size: 1.2em;
+	}
+
+	nav {
+		background-color: initial;
+		border: initial;
+		padding: initial;
+	}
+
+	nav a {
+		margin: initial;
+		padding: initial;
+	}
+
+	.nav-item {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	.main-content {
+		flex-direction: column;
+	}
+
+	.main-content-section img {
+		display: none;
+	}
+
+	.box {
+		width: 100%;
+	}
+
+	.box p {
+		position: initial;
+		transform: initial;
+		color: #2c3e50;
+		padding: 0 0.5em;
+	}
+
+	.indoor p {
+		text-align: left;
+	}
+
+	.outdoor p {
+		text-align: right;
 	}
 }
