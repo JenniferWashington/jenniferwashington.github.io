@@ -1,0 +1,123 @@
+
+nav {
+	font-family: 'Varela Round'; sans-serif;
+	background-color: #CF470A ;
+	font-size: 1em;
+}
+
+a {
+	float: left;
+	background-color: #ff7900;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding:20px;
+	width: 200px;
+
+}
+
+a:hover {
+background-color: #CF470A;
+}
+
+header {
+	padding: 1em;
+	
+}
+
+#wrapper{
+	background-color: #140701;
+	padding:2em;
+	margin: 0em 1em 1em 1em;
+}
+
+#content {
+	float: left;
+	padding: 5px 0;
+	margin: 0 0 0 0px;
+	display: inline-block;
+	width: 50%;
+}
+
+
+h2{	
+	color: #fff;
+	text-decoration: underline;
+	font-size: 2em;
+	padding: 1em 1em 1em 0;
+	font-family: 'Libre Baskerville', serif;
+	line-height: 1.2em;
+
+}
+
+
+article {
+	padding-left: 0;
+}
+
+p {
+	color: #fff;
+	width: 100%;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	line-height: 1.2em;
+}
+
+aside {
+	float: right;
+	width: 500px;
+	padding: 0;
+	margin: 0 0 0 0;
+	display: inline-block;
+}
+
+
+h3 {
+	font-size: 2em;
+	font-family: 'Libre Baskerville', serif;
+	color: #fff;
+	display: inline-block;
+	text-decoration: underline;
+	padding:0 0 1em 0;
+	margin: 0;
+}
+
+.imgbox {
+	float: left;
+	margin:0.5em 8em 2em 0;
+	padding: 0.8em;
+	background-color: #CF470A;
+}
+
+	
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	clear: both;
+	content: "";
+	height: 0;
+}
+
+.quote {
+	color: #fff;
+	line-height: 1.5em;
+	background-color: #140701;
+	padding: 7em;
+	margin: 1em;
+	border-style: double;
+	/*border-color: white;*/why can't I add the color of the border?
+
+}
+
+
+footer {
+	background-color: #CF470A;
+	margin:1em;
+	padding: 10em;
+}
+
+
+
+
+

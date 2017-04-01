@@ -132,7 +132,7 @@ a:hover{
 	
 }
 
-#wrapper{
+.wrapper{
 	background-color: #5C0028;
 	padding:2em;
 }
@@ -151,6 +151,6 @@ img:hover {
 
 @media screen only and (max-width: 793px) {
 nav a {
-	text-align: left;
+	background-color: green;
 	}
 }
