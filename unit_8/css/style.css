@@ -1,10 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Griffy);
 
-*{
+* {
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
-
 }
 
 header {
@@ -14,7 +13,7 @@ header {
 }
 
 body {
-	background-color:##ecf0f1;
+	background-color:#ecf0f1;
 }
 
 footer{
@@ -40,7 +39,7 @@ h2 {
 	margin: 1em;
 	text-align: center;
 	font-size: 1.8em;
-	font-family:Arvo, serif;
+	font-family: Arvo, serif;
 	font-weight: bolder;
 }
 
@@ -58,10 +57,11 @@ p{
 }
 
 a   {
+	color: #000000;
 	text-decoration: none;
 	text-align: center;
 	font-size: 1em;
-	font-family:'Griffy';
+	font-family:Arvo, serif;
 }
 
 img{
@@ -108,6 +108,7 @@ nav a{
 a:hover, a:hover p{
 	color:#5C0028;
 }
+
 a:hover img {
 	opacity: 0.3;
 }
