@@ -101,6 +101,8 @@ float: right;
 	/*aside*/
 background-color: #D4574A;
 border: 0.1em black solid;
+witdh: 20%;
+float: right;
 }
 
 #right ul {
