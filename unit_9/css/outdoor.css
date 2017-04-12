@@ -61,8 +61,7 @@ nav a {
 }
 
 .box {
-	float:left;
-	width:60%;
+	width: 100%;
 	margin: 1em 0 1em 0;
 	padding: 1em;
 	border-style: solid;
@@ -70,16 +69,20 @@ nav a {
 
 }
 
+#two_column {
+	width: 80%;
+float: left;
+}
+
+
+}
 .nav-item {
 	display: inline;
 }
 
 #left{ 
 	/*box*/
-	border-style: 1px black solid;
 	padding: 20px;
-	float: left;
-	width: 62%;
 
 }
 
@@ -89,19 +92,15 @@ a {
 }
 
 a:hover {
-color: #5C0028;;
+color: #5C0028;
+width: 20%;
+float: right;
 }
 
 #right {
 	/*aside*/
 background-color: #D4574A;
 border: 0.1em black solid;
-margin:0 0 0 4em;
-float: right;
-width: 20%;
-height: 10%;
-display: inline-block;
-
 }
 
 #right ul {
@@ -145,19 +144,29 @@ footer {
 
 @media only screen and (max-width: 793px) {
 
-nav a {
-margin: initial;
-padding: initial;
-
-}
-
-header {
+	header {
 		display: flex;
 		justify-content: space-around;
 	}
 
+	h2 {
+		font-size: 1.2em;
+	}
 
+	nav {
+		background-color: initial;
+		border: initial;
+		padding: initial;
+	}
 
+	nav a {
+		margin: initial;
+		padding: initial;
+	}
+
+	.nav-item {
+		display: block;
+	}
 }
 
 
