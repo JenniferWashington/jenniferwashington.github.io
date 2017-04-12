@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css?family=Griffy);
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+
+header {
+	background-color: #FFF3CD;
+	border:0.2em black solid;
+	padding:1em;
+}
+
+
+h1{
+	line-height: 1em;
+	margin: 0.3em;
+	font-size: 2em;
+	font-family: 'Griffy';
+	font-style: italic;
+	}
+
+h2, h3 {
+	color: #2c3e50;
+	margin: 1em;
+	text-align: left;
+	font-size: 1.8em;
+	font-family: Arvo, serif;
+	font-weight: bolder;
+}
+
+nav {
+	font-family:'Indie Flower';
+	font-style: underline;
+	font-size: 1.2em;
+	text-align: center;
+	background-color: #E8C66A;
+	border:0.1em black solid;
+	padding: 1em 0;
+
+}
+
+body {
+	background-color:#ecf0f1;
+}
+
+
+nav a {
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 2em;
+	padding: 1em;
+}
+
+.wrapper{
+	padding:2em;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.box {
+	float:left;
+	width:60%;
+	margin: 1em 0 1em 0;
+	padding: 1em;
+	border-style: solid;
+	border-color: #000000;
+
+}
+
+.nav-item {
+	display: inline;
+}
+
+#left{ 
+	/*box*/
+	border-style: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 62%;
+
+}
+
+a {
+	color: #000000;
+	font-family: Arvo, serif;
+}
+
+a:hover {
+color: #5C0028;;
+}
+
+#right {
+	/*aside*/
+background-color: #D4574A;
+border: 0.1em black solid;
+margin:0 0 0 4em;
+float: right;
+width: 20%;
+height: 10%;
+display: inline-block;
+
+}
+
+#right ul {
+	padding:30px;
+	text-align: right;
+	font-variant-caps: small-caps;
+	line-height: 2em;
+	list-style-type: circle;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	clear: both;
+	content: "";
+	height: 0;
+}
+
+p {
+	margin: 1em 0;
+	text-align: right;
+	color: #000000;
+}
+
+
+
+img {
+	max-width: 30%
+	float: left;
+	display: block;
+	border-style: solid;
+	border-color: #000000;
+
+}
+
+footer {
+	color: white;
+	margin: 12em 0 0 0;
+}
+
+@media only screen and (max-width: 793px) {
+
+nav a {
+margin: initial;
+padding: initial;
+
+}
+
+header {
+		display: flex;
+		justify-content: space-around;
+	}
+
+
+
+}
+
+
+
+
