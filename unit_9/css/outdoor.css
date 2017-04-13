@@ -26,7 +26,7 @@ h2, h3 {
 	color: #2c3e50;
 	margin: 1em;
 	text-align: left;
-	font-size: 1.8em;
+	font-size: 1.7em;
 	font-family: Arvo, serif;
 	font-weight: bolder;
 }
@@ -43,20 +43,29 @@ nav {
 }
 
 body {
-	background-color:#ecf0f1;
+	background-color: #ecf0f1;
 }
 
-
 nav a {
-	text-decoration: none;
 	display: inline-block;
+	text-decoration: none;
 	margin: 0 2em;
 	padding: 1em;
+	text-decoration: none;
+}
+
+.nav-item {
+	display: inline;
+	
+}
+
+ul {
+	list-style: none;
 }
 
 .wrapper{
 	padding:2em;
-	max-width: 1200px;
+	max-width: 98%;
 	margin: auto;
 }
 
@@ -71,13 +80,7 @@ nav a {
 
 #two_column {
 	width: 80%;
-float: left;
-}
-
-
-}
-.nav-item {
-	display: inline;
+	float:left;
 }
 
 #left{ 
@@ -94,14 +97,14 @@ a {
 a:hover {
 color: #5C0028;
 width: 20%;
-float: right;
+float: center;
 }
 
 #right {
 	/*aside*/
 background-color: #D4574A;
 border: 0.1em black solid;
-witdh: 20%;
+width: 20%;
 float: right;
 }
 
@@ -144,6 +147,30 @@ footer {
 	margin: 12em 0 0 0;
 }
 
+@media only screen and (max-width: 999px) {
+
+		#right {
+		/*aside*/
+	background-color: #D4574A;
+	border: 0.1em black solid;
+	width: 100%;
+	float: left;
+	display: block;
+	}
+
+	.box {
+	width: 100%;
+	margin: 1em 0 1em 1em;
+	padding: 1em;
+	border-style: solid;
+	border-color: #000000;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+}
+
 @media only screen and (max-width: 793px) {
 
 	header {
@@ -162,6 +189,7 @@ footer {
 	}
 
 	nav a {
+		float: right;
 		margin: initial;
 		padding: initial;
 	}
@@ -171,6 +199,25 @@ footer {
 	}
 }
 
+@media only screen and (max-width: 414px) {
+	.main-content {
+		flex-direction: column;
+	}
+
+	.main-content-section img {
+		display: none;
+	}
+
+	.box {
+		width: 100%;
+	}
+
+	.box p {
+		position: initial;
+		transform: initial;
+		color: #2c3e50;
+		padding: 0 0.5em;
+	}
 
 
 
